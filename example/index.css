@@ -1,0 +1,79 @@
+* {
+	font-family: Verdana;
+}
+
+.Select {
+	position: relative;
+	margin: 100px auto 0 auto;
+	width: 300px;
+	outline: 1px solid IndianRed;
+}
+
+.Select-input {
+	padding: 6px;
+	cursor: pointer;
+}
+
+.Select-placeholder {
+	color: #bbb;
+}
+
+.Select-multiple {
+	display: inline-block;
+	padding: 4px;
+	margin: 4px;
+	font-size: 14px;
+	color: #fff;
+	background-color: IndianRed;
+	cursor: default;
+}
+
+.Select-remove {
+	display: inline-block;
+	margin-right: 2px;
+	cursor: pointer;
+}
+
+.Select-remove:hover {
+	color: pink;
+}
+
+.Select-options {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	outline: 1px solid IndianRed;
+	box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, .15);
+	z-index: 1;
+}
+
+.Select-options--open {
+	display: block;
+}
+
+.Option {
+	padding: 6px;
+	cursor: pointer;
+}
+
+.Option--active {
+	background-color: Pink;
+}
+
+.Option:hover {
+	color: #fff;
+	background-color: IndianRed;
+}
+
+.Option--disabled {
+	color: #ddd;
+	cursor: not-allowed;
+}
+
+.Option--disabled:hover {
+	color: #ddd;
+	background-color: #fff;
+}

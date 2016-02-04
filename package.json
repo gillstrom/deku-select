@@ -1,0 +1,74 @@
+{
+  "name": "deku-select",
+  "version": "0.0.0",
+  "description": "My deku component",
+  "license": "MIT",
+  "repository": "gillstrom/deku-select",
+  "author": {
+    "name": "Andreas Gillström",
+    "email": "andreasgillstrom@gmail.com",
+    "url": "github.com/gillstrom"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "build": "browserify example/index.js -o example/build.js -dv -t [ babelify --presets [ es2015 react ] ]",
+    "prepublish": "babel --presets es2015,react --out-dir dist lib",
+    "test": "xo"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "component",
+    "deku",
+    "deku-component",
+    "dekujs",
+    "dropdown",
+    "form",
+    "multi",
+    "multiselect",
+    "select"
+  ],
+  "dependencies": {
+    "array-uniq": "^1.0.2",
+    "click-outside": "^1.0.4",
+    "magic-virtual-element": "^1.0.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "deku": "^1.0.0",
+    "eslint-config-xo-react": "^0.3.0",
+    "eslint-plugin-react": "^3.15.0",
+    "xo": "*"
+  },
+  "xo": {
+    "envs": [
+      "browser",
+      "node"
+    ],
+    "esnext": true,
+    "extends": [
+      "xo-react"
+    ],
+    "ignores": [
+      "dist.js",
+      "example/**"
+    ],
+    "rules": {
+      "jsx-quotes": [
+        2,
+        "prefer-single"
+      ],
+      "react/no-unknown-property": 0,
+      "react/prop-types": 0,
+      "quote-props": 0
+    }
+  }
+}
