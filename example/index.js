@@ -12,6 +12,7 @@ const render = () => {
 		label: 'Denver',
 		value: 'denver'
 	}, {
+		active: true,
 		label: 'Manitowoc',
 		value: 'manitowoc'
 	}, {
@@ -19,6 +20,7 @@ const render = () => {
 		label: 'San Diego',
 		value: 'san-diego'
 	}, {
+		active: true,
 		label: 'Bishop',
 		value: 'bishop'
 	}];

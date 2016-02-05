@@ -24,12 +24,14 @@ const render = () => {
 		label: 'Denver',
 		value: 'denver'
 	}, {
+		active: true,
 		label: 'Manitowoc',
 		value: 'manitowoc'
 	}, {
 		label: 'San Diego',
 		value: 'san-diego'
 	}, {
+		active: true,
 		label: 'Bishop',
 		value: 'bishop'
 	}];
