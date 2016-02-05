@@ -28,6 +28,7 @@ const render = () => {
 		label: 'Manitowoc',
 		value: 'manitowoc'
 	}, {
+		disabled: true,
 		label: 'San Diego',
 		value: 'san-diego'
 	}, {
