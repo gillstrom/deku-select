@@ -28,7 +28,7 @@ const render = () => {
 	return (
 		<div>
 			<Select name='city_multiple' class='CustomClass' options={options} placeholder='Multiple: Pick a city' onChange={onChange} multiple/>
-			<Select name='city_single' class='CustomClass' options={options} placeholder='Single: Pick a city' onChange={onChange}/>
+			<Select name='city_single' class='CustomClass' options={options} placeholder='Single: Pick a city' onChange={onChange} toggle/>
 		</div>
 	);
 };
