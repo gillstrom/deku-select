@@ -1,7 +1,7 @@
 {
   "name": "deku-select",
   "version": "1.7.0",
-  "description": "My deku component",
+  "description": "A Select componenent for Deku",
   "license": "MIT",
   "repository": "gillstrom/deku-select",
   "author": {
